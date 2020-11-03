@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MovieInfo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-center mt-5">Movie Info App</div>
+      <form id="movieform" aria-autocomplete="off">
+        <div class="form-group">
+          <label for="Movie">Movie name</label>
+          <input type="text"  id="movie" placeholder="Movie..." class="form-control">
+        </div>
+        <div class="form-group">
+          <button id="form" class="btn btn-danger btn-block">Search Movie</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="result"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
+  <script src="index.js"></script>
+
+  </body>
+</html>
+
